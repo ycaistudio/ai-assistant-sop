@@ -1,2 +1,23 @@
 # ai-assistant-sop
-Generic, de-identified ground rules (SOP) for any user and their AI assistant. 通用 AI 助手工作守則。Draft v1.
+
+AI 助手工作守則(SOP)— 通用版。適用於任何用戶同佢嘅 AI 助手嘅基本規則同授權框架。
+
+> **DRAFT v1 — 草稿,未經批准,只供參考,未生效**
+
+## 內容
+
+- [`SKILL.md`](SKILL.md) — 守則全文(YAML frontmatter + Markdown,方便 AI 助手直接讀取)
+- [`20261113_sop_general_v1-a9007645.pdf`](20261113_sop_general_v1-a9007645.pdf) — 同一內容嘅 PDF 版,方便閱讀同分享
+
+## 結構
+
+守則分兩部分:
+
+- **A部:通用規則** — 對每個情境都一樣嘅基本守則(身份、溝通、公私分明、對外發送、檔案、安全、協作、授權、保密、匯報、學習)
+- **B部:專用安排** — 留俾每個用戶按自己嘅實際互動填寫
+
+專用安排加喺通用規則上面,唔會推翻通用規則。無論通用定專用,都要用戶批准先生效。
+
+## 用法
+
+將 `SKILL.md` 放入你嘅 AI 助手嘅 skill 資料夾,助手就可以讀取守則內容。守則本身係草稿,要用戶批准先生效。
