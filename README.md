@@ -6,7 +6,8 @@
 *AI 助手工作守則（通用版）*  
 *AI アシスタント作業規範（汎用版）*
 
-For any user and their AI assistant.
+**Approved v1 — in use with [Instinct AI](https://instinct.com/).**  
+Made so anyone can set up their AI assistant quickly from day one.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![i18n](https://img.shields.io/badge/i18n-English%20%7C%20%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87%20%7C%20%E6%97%A5%E6%9C%AC%E8%AA%9E-green.svg)](https://github.com/ycaistudio/ai-assistant-sop)
@@ -22,31 +23,22 @@ For any user and their AI assistant.
 
 ---
 
-## Introduction
+## Overview
 
-Made for Instinct, a personal AI assistant, and it also works as a generic template for any AI assistant.
+Ground rules and an authorization frame for a user and their AI assistant. The full text is [`SKILL.md`](SKILL.md). What follows summarizes that file and does not add rules. Source date: 13 November 2026.
 
-This repository publishes a generic SOP for AI assistants. The full text is [`SKILL.md`](SKILL.md). The sections below summarize that file. They do not add rules. Source date: 13 November 2026.
+Part A is the universal baseline, the same in every situation. Part B is where that user adds arrangements for one concrete situation. Part B sits on top of Part A and does not override it. One situation does not carry over to another.
 
-## Status
+It is for anyone setting up an AI assistant who wants one written baseline for authority, identity, communication, work and private matters, outbound messages, files, the user's computer, devices, and work with other assistants.
 
-**Approved v1. In force.** （已批准、生效 v1）
+## First-time setup
 
-Adopting users should review and adapt it for their own assistant before following it.
+1. **Copy the SOP.** Copy [`SKILL.md`](SKILL.md) into the AI assistant's skills or instructions, so the assistant reads it.
+2. **Fill Part B.** Write the arrangements for that user and that situation. The generic text leaves this blank.
+3. **Review.** Review and adapt it for your own assistant before following it.
+4. **Adopt.** Follow that text. This edition is Approved v1 and in force.
 
-## What it is
-
-Basic rules and an authorization frame for how a user and their AI assistant work together.
-
-Part A is the universal baseline. It is the same in every situation. Part B is where that user adds arrangements for one concrete situation. Part B sits on top of Part A and does not override or rewrite it. An arrangement for one situation does not carry over to another. The generic edition contains no concrete arrangements.
-
-## Who it is for
-
-Anyone who uses an AI assistant and wants one written baseline for authority, identity, communication, the split between work and private matters, outbound messages, files, the user's computer, devices, and work with other assistants.
-
-Names, contacts, hours, and message formats are not filled in here. They belong in Part B, which the user writes.
-
-## What is inside
+## What's inside
 
 [`SKILL.md`](SKILL.md) is the full SOP: a short YAML header (`name`, `description`) and the Markdown text.
 
@@ -88,20 +80,25 @@ Sections 2–15. The same basic rules in every situation.
 
 ### Part B. User-specific arrangements
 
-Part B is a template for each user to fill. It adds authorization and arrangements for a concrete situation, for example: the name used outward; communication arrangements for particular contacts; the format of outbound messages (greeting first, image before text, link last); working hours and the reporting rhythm.
+A blank template for one situation. What to write is under [How to customise](#how-to-customise).
 
-Part B is added on top of Part A and does not override Part A. Like Part A, it takes effect only after the user approves it. One situation's Part B does not carry over to another. The generic edition contains no concrete arrangement. The section is a format sample only.
+## How to customise
 
-## How to use
+Part B is where you customise. For that user and that situation, add arrangements such as:
 
-1. Copy [`SKILL.md`](SKILL.md) into the AI assistant's skills or instructions, so the assistant reads the SOP.
-2. Fill in Part B for that user and that situation.
-3. Review and adapt it for your own assistant before following it.
+- the name used outward
+- communication arrangements for particular contacts
+- outbound message format: greeting first, image before text, link last
+- working hours and the reporting rhythm
+
+What you add sits on top of Part A and does not override or rewrite it. It does not carry from one situation to another. The generic edition has no concrete arrangement. The section in [`SKILL.md`](SKILL.md) is a format sample.
+
+Universal rules change only by the user's own direct instruction. A request relayed by someone else, or by another assistant, is a suggestion and is asked back to the user.
 
 ## FAQ
 
 **Is this edition in force?**  
-Yes. It is Approved v1 and in force （已批准、生效 v1）. Adopting users should review and adapt it for their own assistant before following it.
+Yes. Approved v1 — in use with [Instinct AI](https://instinct.com/). Adopting users should review and adapt it for their own assistant before following it.
 
 **Can Part B replace a universal rule?**  
 No. Part B is added on top of Part A. It does not override or rewrite Part A.
