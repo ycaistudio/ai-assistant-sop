@@ -7,7 +7,6 @@ AI 助手工作守則(SOP)— 通用版。適用於任何用戶同佢嘅 AI 助�
 ## 內容
 
 - [`SKILL.md`](SKILL.md) — 守則全文(YAML frontmatter + Markdown,方便 AI 助手直接讀取)
-- [`20261113_sop_general_v1-a9007645.pdf`](20261113_sop_general_v1-a9007645.pdf) — 同一內容嘅 PDF 版,方便閱讀同分享
 
 ## 結構
 
